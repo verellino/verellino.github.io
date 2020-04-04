@@ -1,0 +1,17 @@
+nav {
+    display: block;
+    padding-top: 50px;
+    width: calc(100% - 120px);
+    position: fixed;
+    background: rgba(0, 0, 0, 1%);
+    color: #802022;
+    text-align: right;
+    z-index: 100;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+}
