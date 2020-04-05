@@ -1,0 +1,11 @@
+/*Boilerplate templates load 1st*/
+@import "intro.css";
+@import "bp.css";
+@import "normalize.css";
+/* Custom css for each page / section */
+@import "nav.css";
+@import "hero.css";
+  
+
+/*mobile view under 768px*/
+@import "768px.css";

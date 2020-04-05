@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+    .sorrymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100vw-90px);
+        height: 100vh;
+        text-align: center;
+    }
+    .hero {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+  }

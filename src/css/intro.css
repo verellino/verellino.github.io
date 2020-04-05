@@ -1,0 +1,109 @@
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a,body,button,div,footer,form,h1,h2,h3,h4,header,html,img,input,label,li,nav,p,select,span,table,textarea,ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-family: inherit;
+    font-size: 100%;
+  }
+  
+  li,ul {
+    list-style: none;
+  }
+  
+  button,input,select,textarea {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    background: none;
+    color: inherit;
+  }
+  
+  button:focus,input:focus,textarea:focus {
+    outline: none;
+  }
+  
+  button:hover,input[type=submit]:hover {
+    cursor: pointer;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a,img,picture,svg,video {
+    display: block;
+  }
+  
+  img,video {
+    width: 100%;
+    height: auto;
+  }
+  
+  iframe,svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+  }
+  
+body {
+    background: #131313;
+    padding: 0 45px 0 45px;
+}
+@font-face{
+    font-family: "Romana BT";
+    src: url("https://db.onlinewebfonts.com/t/001aa03bd87908b52690a04ea52ca410.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/001aa03bd87908b52690a04ea52ca410.eot?#iefix") 
+    format("embedded-opentype"), 
+    url("https://db.onlinewebfonts.com/t/001aa03bd87908b52690a04ea52ca410.woff2") 
+    format("woff2"), url("https://db.onlinewebfonts.com/t/001aa03bd87908b52690a04ea52ca410.woff") 
+    format("woff"), url("https://db.onlinewebfonts.com/t/001aa03bd87908b52690a04ea52ca410.ttf") format("truetype"), 
+    url("https://db.onlinewebfonts.com/t/001aa03bd87908b52690a04ea52ca410.svg#Romana BT") format("svg"); 
+  }
+
+a, h1,h2,h3,h4,h5 {
+    font-family: "Romana BT";
+    font-weight: bold;
+    color: #802022;
+  }
+h1{
+    font-size: calc(96px + 1vw);
+}
+h2 {
+    font-size: calc(24px + 1vw);
+}
+h3 {
+    font-size: calc(20px + 0.5vw);
+}
+h4 {
+  font-size: calc(12px + 0.3vw);
+}
+p {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: calc(12px + 0.15vw);
+    color: #802022;
+}
