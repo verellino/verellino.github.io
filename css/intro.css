@@ -87,7 +87,7 @@ body {
 a, h1,h2,h3,h4,h5 {
     font-family: "Romana BT";
     font-weight: bold;
-    color: #802022;
+    color: #f0f0f0;
   }
 h1{
     font-size: calc(96px + 1vw);
@@ -105,5 +105,5 @@ p {
     font-family: "Poppins";
     font-weight: 300;
     font-size: calc(12px + 0.15vw);
-    color: #800000;
+    color: #f0f0f0;
 }
