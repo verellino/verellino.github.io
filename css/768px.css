@@ -14,4 +14,10 @@
     nav {
         display: none;
     }
+    .socials {
+        margin: 80px 0;
+    }
+    .contact {
+        padding: 16px;
+    }
   }
