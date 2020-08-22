@@ -12,7 +12,9 @@ html {
     font-family: inherit;
     font-size: 100%;
   }
-  
+  h2 {
+    margin-top: 16px;
+  }
   li,ul {
     list-style: none;
   }
